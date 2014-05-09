@@ -1,0 +1,161 @@
+#gallery_item_type .inside {
+
+padding: 0px;
+margin: 0px;
+font-family: Arial;
+
+}
+
+#gallery_nav {
+
+background: #f1f1f1;
+border-right: 1px solid #ddd;
+height: 100%;
+display: block;
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ddd;
+
+}
+
+#gallery_nav ul li {
+
+margin: 0px;
+display: inline;
+float: left;
+
+}
+
+#gallery_nav ul li a {
+
+font-family: Arial;
+font-weight: bold;
+font-size: 12px;
+text-shadow: 0 1px 0 #fff;
+color: #797979;
+text-decoration: none;
+padding: 10px 15px;
+margin: 0px;
+display: block;
+
+}
+
+#gallery_containers > div {
+
+display: none;
+
+}
+
+#main_matrix {
+    margin: 6px 10px;
+	background-color: #FDFDFD;
+    border: 1px solid #DFDFDF;
+	overflow:hidden;
+	padding-top: 18px;
+}
+
+#main_matrix ul li {
+
+width: 230px;
+height: 200px;
+float: left;
+margin-bottom: 18px;
+background: #333;
+margin-left: 18px;
+cursor: move;
+
+}
+
+#gallery_nav ul li a.active {
+
+color: #333;
+
+}
+
+#gallery_overlap {
+
+background: #f1f1f1;
+width: 100%;
+height: 100%;
+display: none;
+position: absolute;
+z-index: 999;
+
+}
+
+#editor_window {
+width: 340px;
+position: fixed;
+left: 35%;
+top: 35%;
+z-index: 99999;
+padding: 20px;
+display: none;
+}
+
+#new_gallery {
+
+margin: 16px;
+padding: 0px 20px 20px 20px !important;
+background: #f1f1f1;
+border: 1px dashed #ccc;
+font-family: Arial;
+font-weight: bold;
+text-shadow: 0 1px 0 #fff;
+color: #797979;
+}
+#new_gallery input[type=text] { 
+	font-size: 13px !important;
+	padding: 7px 10px !important;
+}
+#upload_image_button_new {
+	top:3px !important;
+	right:3px !important;
+}
+.editor_wrap {
+font-size: 12px;
+font-weight: bold;
+width: 300px; 
+margin: auto; 
+background: #ddd; 
+padding: 20px; 
+border-radius: 5px; 
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border: 1px solid #aaa;
+background: #fff;
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+background: -moz-linear-gradient(top,  #fff,  #eee);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#eee');
+
+}
+
+.image_style {
+
+position: relative;
+overflow: hidden;
+
+}
+
+.image_controls {
+
+position: absolute;
+bottom: -50px;
+left: 0px;
+width: 100%;
+background: #222;
+height: 40px;
+
+}
+
+#main_matrix .image_controls ul li {
+
+display: inline;
+width: 15px;
+height: 15px;
+padding: 13px;
+margin: 0px;
+margin-right: 1px;
+
+}
+#main_matrix .image_controls ul li.icon_edit a {background:url(../images/edit.png) no-repeat!important; width:22px; height:22px; display:block}
+#main_matrix .image_controls ul li.icon_remove a {background:url(../images/delete.png) no-repeat!important; width:22px; height:22px; display:block}

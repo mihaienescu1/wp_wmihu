@@ -1,0 +1,380 @@
+body {
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode","Lucida Grande","Droid Sans",sans-serif;;
+	line-height: 1.55;
+	color: ;	
+}
+#wt_page {
+	overflow: hidden;
+}	
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../font-faces/Opensans/opensans-regular-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('../font-faces/Opensans/opensans-semibold-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-semibold-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../font-faces/Opensans/opensans-bold-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-bold-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('../font-faces/Opensans/opensans-italic-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-italic-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-italic-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../font-faces/Opensans/opensans-light-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-light-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('../font-faces/Opensans/opensans-semibolditalic-webfont.eot');
+    src: url('../font-faces/Opensans/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font-faces/Opensans/opensans-semibolditalic-webfont.woff') format('woff'),
+         url('../font-faces/Opensans/opensans-semibolditalic-webfont.ttf') format('truetype'),
+         url('../font-faces/Opensans/opensans-semibolditalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body, .affix #nav li a.level-1-a, h3.widgettitle, .portofolio_details h4, #flexSlider .flex-caption h2, #nivoSlider .nivo-caption h2, #cycle_slider .cycle-overlay h2 { font-family: OpenSansRegular; }
+h1.slogan, .button_red, h1, h2, h3, h4, h5, h6, .team_description h3, #wt_sidebar h3, .entry_date, .blogEntry_content .read_more_link, .skill, .progress_bar_title, #wt_footer .widget ul li a, #wt_footer .recentTweets li a {font-family: 'OpenSansSemibold' }
+#introType h1, .services_item h2 {font-family: 'OpenSansBold' }
+span.quotes_text {font-family: 'OpenSansSemiboldItalic' }
+.italic, blockquote,.minimal_toggle .toggle_content, .testimonials div, .team_description h3 span, .sortableLinks a, .portofolio_det p, .portfolio_info div  {font-family: 'OpenSansItalic' }
+h1.title, h2.title, span.quotes_author, .contact_button {font-family: 'OpenSansSemibold' }
+h3.custom_title, input, textarea, #flexSlider .flex-caption h3, #flexSlider .flex-caption .wt_button.button_slide, #nivoSlider .nivo-caption h3 ,#nivoSlider .nivo-caption .wt_button.button_slide, #cycle_slider .cycle-overlay h3, #cycle_slider .cycle-overlay .wt_button.button_slide, #copyright p { font-family: OpenSansLight; }
+#anything_slider_wrap,
+#anything_slider_loading, 
+#anything_slider {
+	height: 700px;
+}
+.caption_left, .caption_right {
+	height: 660px;
+}
+#anything_slider .anything_sidebar_content {
+	height: 660px;
+}
+#header,
+#stickyHeaderBg {
+	background-color: ;
+}
+#topWidgetWrapper {
+	background-color: ;
+}
+#nav {
+	border-bottom-color: ;
+	background-color: ;
+}
+#nav ul li a span {
+	border-top-color: ; }
+#containerWrapper,
+#containerWrapper.wt_section {	
+	background-color: ;
+}
+#wt_content {	
+	background-color: ;
+}
+#wt_footerTop {	
+	background-color: ;
+}
+#wt_footerWrapper {	
+	background-color: ;
+}
+#wt_footerBottom {	
+	background-color: ;
+}
+h1, h2, h3, h4, h5, h6,
+#wt_container h1 a:link,
+#wt_container h1 a:visited,
+#wt_container h2 a:link,
+#wt_container h2 a:visited,
+#wt_container h3 a:link,
+#wt_container h3 a:visited,
+#wt_container h4 a:link,
+#wt_container h4 a:visited,
+#wt_container h5 a:link,
+#wt_container h5 a:visited,
+#wt_container h6 a:link,
+#wt_container h6 a:visited {
+	color: ;
+}
+h1 {
+	font-size: 30px;
+	color: ;
+}
+#wt_container h1 a:link,
+#wt_container h1 a:visited {
+	color: ;
+}
+h2 {
+	font-size: 25px;
+	color: ;
+}
+#wt_container h2 a:link,
+#wt_container h2 a:visited {
+	color: ;
+}
+h3 {
+	font-size: 20px;
+	color: ;
+}
+#wt_container h3 a:link,
+#wt_container h3 a:visited {
+	color: ;
+}
+h4 {
+	font-size: 18px;
+	color: ;
+}
+#wt_container h4 a:link,
+#wt_container h4 a:visited {
+	color: ;
+}
+h5 {
+	font-size: 16px;
+	color: ;
+}
+#wt_container h5 a:link,
+#wt_container h5 a:visited {
+	color: ;
+}
+h6 {
+	font-size: 15px;
+	color: ;
+}
+#wt_container h6 a:link,
+#wt_container h6 a:visited {
+	color: ;
+}
+#wt_container a:link,
+#wt_container a:visited {
+	color: ;
+}
+#logo_text a:link,
+#logo_text a:visited {
+	color: ;
+	font-size: 26px;
+}
+#siteDescription {
+	color: ;
+	font-size: 12px;
+}
+#nav ul li a.level-1-a {
+	color: ;
+	font-size: 12px;
+}
+#nav ul li a.level-1-a:hover,
+#nav ul li.level-1-li:hover a.level-1-a {
+	color: ;
+}
+#nav ul li.current_page_item a.level-1-a, 
+#nav ul li.current_page_item.level-2-li a.level-2-a,
+#nav ul li.current_page_item.level-3-li a.level-3-a, 
+#nav ul li.current_page_item.level-4-li a.level-4-a,
+#nav ul li.current-page-ancestor a.level-1-a,
+#nav ul li.current-page-ancestor.level-2-li a.level-2-a,
+#nav ul li.current-page-ancestor.level-3-li a.level-3-a,
+#nav ul li.current-page-ancestor.level-4-li a.level-4-a,
+#nav ul li.current_page_ancestor a.level-1-a,
+#nav ul li.current_page_ancestor.level-2-li a.level-2-a,
+#nav ul li.current_page_ancestor.level-3-li a.level-3-a,
+#nav ul li.current_page_ancestor.level-4-li a.level-4-a,
+#nav ul li.current-menu-ancestor a.level-1-a {
+	color: ;
+}
+#nav ul ul a {
+	color: ;
+	font-size: 13px;
+}
+#nav ul li ul li a:hover {
+	color:  !important;
+}
+#wt_footerTop a:link, 
+#wt_footerTop a:visited {
+	color: ;
+	font-size: 12px;
+}
+#wt_footerBottom .widget_nav_menu li a:link,
+#wt_footerBottom .widget_nav_menu li a:visited {
+	color: ;
+	font-size: 12px;
+}
+#copyright p {
+	color: ;
+	font-size: 13px;
+}
+#wt_footer a:link,
+#wt_footer a:visited {
+	color: ;
+}
+#wt_footer a:hover {
+	color: ;
+}
+#wt_footer .widget,
+#wt_footer p {
+	color: ;
+	font-size: 12px;
+}
+#wt_footerWrapper  h3.widgettitle {
+	font-size: 14px;
+}
+#introHeaderWidget h1 {
+	font-size: 35px;
+}
+#introHeaderWidget h2,
+#introHeaderWidget p {
+	font-size: 25px;
+}
+#wt_sidebar .widgettitle {
+	font-size: 14px;
+}
+#breadcrumbs {
+	color: ;
+}
+#breadcrumbs a:link,
+#breadcrumbs a:visited {
+	color: ;
+}
+#breadcrumbs a:hover {
+	color: ;
+}
+.blogEntry {
+	margin-bottom:px;
+}
+.social_wrap a.aim:hover, .social_wrap a.aim_32:hover, .social_wrap_alt a.aim, .social_wrap_alt a.aim:hover, .social_wrap_alt a.aim_32, .social_wrap_alt a.aim_32:hover { 
+	background-color: #452806; 
+}
+.social_wrap a.apple:hover, .social_wrap a.apple_32:hover, .social_wrap_alt a.apple, .social_wrap_alt a.apple:hover, .social_wrap_alt a.apple_32, .social_wrap_alt a.apple_32:hover { 
+	background-color: #231f20; 
+}
+.social_wrap a.behance:hover, .social_wrap a.behance_32:hover, .social_wrap_alt a.behance, .social_wrap_alt a.behance:hover, .social_wrap_alt a.behance_32, .social_wrap_alt a.behance_32:hover { 
+	background-color: #1378fe; 
+}
+.social_wrap a.blogger:hover, .social_wrap a.blogger_32:hover, .social_wrap_alt a.blogger, .social_wrap_alt a.blogger:hover, .social_wrap_alt a.blogger_32, .social_wrap_alt a.blogger_32:hover { 
+	background-color: #fe6601; 
+}
+.social_wrap a.delicious:hover, .social_wrap a.delicious_32:hover, .social_wrap_alt a.delicious, .social_wrap_alt a.delicious:hover, .social_wrap_alt a.delicious_32, .social_wrap_alt a.delicious_32:hover { 
+	background-color: #3274d2; 
+}
+.social_wrap a.deviantart:hover, .social_wrap a.deviantart_32:hover, .social_wrap_alt a.deviantart, .social_wrap_alt a.deviantart:hover, .social_wrap_alt a.deviantart_32, .social_wrap_alt a.deviantart_32:hover { 		
+	background-color: #c8da2e; 
+}
+.social_wrap a.digg:hover, .social_wrap a.digg_32:hover, .social_wrap_alt a.digg, .social_wrap_alt a.digg:hover, .social_wrap_alt a.digg_32, .social_wrap_alt a.digg_32:hover { 
+	background-color: #005f95; 
+}
+.social_wrap a.dribbble:hover, .social_wrap a.dribbble_32:hover, .social_wrap_alt a.dribbble, .social_wrap_alt a.dribbble:hover, .social_wrap_alt a.dribbble_32, .social_wrap_alt a.dribbble_32:hover { 
+	background-color: #ea4b8b; 
+}
+.social_wrap a.email:hover, .social_wrap a.email_32:hover, .social_wrap_alt a.email, .social_wrap_alt a.email:hover, .social_wrap_alt a.email_32, .social_wrap_alt a.email_32:hover { 
+	background-color: #262626; 
+}
+.social_wrap a.ember:hover, .social_wrap a.ember_32:hover, .social_wrap_alt a.ember, .social_wrap_alt a.ember:hover, .social_wrap_alt a.ember_32, .social_wrap_alt a.ember_32:hover { 
+	background-color: #e11a3b; 
+}
+.social_wrap a.facebook:hover, .social_wrap a.facebook_32:hover, .social_wrap_alt a.facebook, .social_wrap_alt a.facebook:hover, .social_wrap_alt a.facebook_32, .social_wrap_alt a.facebook_32:hover { 
+	background-color: #3C5A9A; 
+}
+.social_wrap a.flickr:hover, .social_wrap a.flickr_32:hover, .social_wrap_alt a.flickr, .social_wrap_alt a.flickr:hover, .social_wrap_alt a.flickr_32, .social_wrap_alt a.flickr_32:hover { 
+	background-color: #0062dd; 
+}
+.social_wrap a.forrst:hover, .social_wrap a.forrst_32:hover, .social_wrap_alt a.forrst, .social_wrap_alt a.forrst:hover, .social_wrap_alt a.forrst_32, .social_wrap_alt a.forrst_32:hover { 
+	background-color: #166021; 
+}
+.social_wrap a.google:hover, .social_wrap a.google_32:hover, .social_wrap_alt a.google, .social_wrap_alt a.google:hover, .social_wrap_alt a.google_32, .social_wrap_alt a.google_32:hover { 
+	background-color: #4a7af6; 
+}
+.social_wrap a.googleplus:hover, .social_wrap a.googleplus_32:hover, .social_wrap_alt a.googleplus, .social_wrap_alt a.googleplus:hover, .social_wrap_alt a.googleplus_32, .social_wrap_alt a.googleplus_32:hover { 
+	background-color: #da2713; 
+}
+.social_wrap a.html5:hover, .social_wrap a.html5_32:hover, .social_wrap_alt a.html5, .social_wrap_alt a.html5:hover, .social_wrap_alt a.html5_32, .social_wrap_alt a.html5_32:hover { 
+	background-color: #e54d26; 
+}
+.social_wrap a.lastfm:hover, .social_wrap a.lastfm_32:hover, .social_wrap_alt a.lastfm, .social_wrap_alt a.lastfm:hover, .social_wrap_alt a.lastfm_32, .social_wrap_alt a.lastfm_32:hover { 
+	background-color: #c30d19; 
+}
+.social_wrap a.linkedin:hover, .social_wrap a.linkedin_32:hover, .social_wrap_alt a.linkedin, .social_wrap_alt a.linkedin:hover, .social_wrap_alt a.linkedin_32, .social_wrap_alt a.linkedin_32:hover { 
+	background-color: #006599; 
+}
+.social_wrap a.metacafe:hover, .social_wrap a.metacafe_32:hover, .social_wrap_alt a.metacafe, .social_wrap_alt a.metacafe:hover, .social_wrap_alt a.metacafe_32, .social_wrap_alt a.metacafe_32:hover { 
+	background-color: #f88326; 
+}
+.social_wrap a.netvibes:hover, .social_wrap a.netvibes_32:hover, .social_wrap_alt a.netvibes, .social_wrap_alt a.netvibes:hover, .social_wrap_alt a.netvibes_32, .social_wrap_alt a.netvibes_32:hover  { 
+	background-color: #15ae15; 
+}
+.social_wrap a.paypal:hover, .social_wrap a.paypal_32:hover, .social_wrap_alt a.paypal, .social_wrap_alt a.paypal:hover, .social_wrap_alt a.paypal_32, .social_wrap_alt a.paypal_32:hover { 
+	background-color: #2c5f8c; 
+}
+.social_wrap a.picasa:hover, .social_wrap a.picasa_32:hover, .social_wrap_alt a.picasa, .social_wrap_alt a.picasa:hover, .social_wrap_alt a.picasa_32, .social_wrap_alt a.picasa_32:hover { 
+	background-color: #b163c9; 
+}
+.social_wrap a.pinterest:hover, .social_wrap a.pinterest_32:hover, .social_wrap_alt a.pinterest, .social_wrap_alt a.pinterest:hover, .social_wrap_alt a.pinterest_32, .social_wrap_alt a.pinterest_32:hover { 
+	background-color: #cb2028; 
+}
+.social_wrap a.reddit:hover, .social_wrap a.reddit_32:hover, .social_wrap_alt a.reddit, .social_wrap_alt a.reddit:hover, .social_wrap_alt a.reddit_32, .social_wrap_alt a.reddit_32:hover { 
+	background-color: #6bbffb; 
+}
+.social_wrap a.rss:hover, .social_wrap a.rss_32:hover, .social_wrap_alt a.rss, .social_wrap_alt a.rss:hover, .social_wrap_alt a.rss_32, .social_wrap_alt a.rss_32:hover { 
+	background-color: #ff6600; 
+}
+.social_wrap a.skype:hover, .social_wrap a.skype_32:hover, .social_wrap_alt a.skype, .social_wrap_alt a.skype:hover, .social_wrap_alt a.skype_32, .social_wrap_alt a.skype_32:hover { 
+	background-color: #00aff0; 
+}
+.social_wrap a.stumbleupon:hover, .social_wrap a.stumbleupon_32:hover, .social_wrap_alt a.stumbleupon, .social_wrap_alt a.stumbleupon:hover, .social_wrap_alt a.stumbleupon_32, .social_wrap_alt a.stumbleupon_32:hover { 
+	background-color: #ea4b24; 
+}
+.social_wrap a.technorati:hover, .social_wrap a.technorati_32:hover, .social_wrap_alt a.technorati, .social_wrap_alt a.technorati:hover, .social_wrap_alt a.technorati_32, .social_wrap_alt a.technorati_32:hover { 
+	background-color: #00c400; 
+}
+.social_wrap a.tumblr:hover, .social_wrap a.tumblr_32:hover, .social_wrap_alt a.tumblr, .social_wrap_alt a.tumblr:hover, .social_wrap_alt a.tumblr_32, .social_wrap_alt a.tumblr_32:hover { 
+	background-color: #2c4661; 
+}
+.social_wrap a.twitter:hover, .social_wrap a.twitter_32:hover, .social_wrap_alt a.twitter, .social_wrap_alt a.twitter:hover, .social_wrap_alt a.twitter_32, .social_wrap_alt a.twitter_32:hover { 
+	background-color: #00acee; 
+}
+.social_wrap a.vimeo:hover, .social_wrap a.vimeo_32:hover, .social_wrap_alt a.vimeo, .social_wrap_alt a.vimeo:hover, .social_wrap_alt a.vimeo_32, .social_wrap_alt a.vimeo_32:hover { 
+	background-color: #17aacc; 
+}
+.social_wrap a.wordpress:hover, .social_wrap a.wordpress_32:hover, .social_wrap_alt a.wordpress, .social_wrap_alt a.wordpress:hover, .social_wrap_alt a.wordpress_32, .social_wrap_alt a.wordpress_32:hover { 
+	background-color: #207499; 
+}
+.social_wrap a.yahoo:hover, .social_wrap a.yahoo_32:hover, .social_wrap_alt a.yahoo, .social_wrap_alt a.yahoo:hover, .social_wrap_alt a.yahoo_32, .social_wrap_alt a.yahoo_32:hover { 
+	background-color: #65106b; 
+}
+.social_wrap a.yelp:hover, .social_wrap a.yelp_32:hover, .social_wrap_alt a.yelp, .social_wrap_alt a.yelp:hover, .social_wrap_alt a.yelp_32, .social_wrap_alt a.yelp_32:hover { 
+	background-color: #c51102; 
+}
+.social_wrap a.youtube:hover, .social_wrap a.youtube_32:hover, .social_wrap_alt a.youtube, .social_wrap_alt a.youtube:hover, .social_wrap_alt a.youtube_32, .social_wrap_alt a.youtube_32:hover { 
+	background-color: #d20200; 
+}
+/* ----------------- Custom css ----------------- */

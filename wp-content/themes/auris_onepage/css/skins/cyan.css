@@ -1,0 +1,260 @@
+/* ========================================================== */
+/* 					       Orange                             */
+/* ========================================================== */
+
+a:not(.wt_button):not(.button):hover,
+.skin_color,
+a.skin_color,
+#wt-responsive-nav li > a:before,
+#wt-responsive-nav li > a i {
+	color: #0bbfb0; }	
+a:not(.wt_button),
+.skin_color {
+		color: #0bbfb0; }
+.wt_styled_color {
+		color: #0bbfb0; }
+.fullWidth #wt_content h1.dottedBg, #wt_main h1.dottedBg,
+.fullWidth #wt_content h2.dottedBg, #wt_main h2.dottedBg,
+.fullWidth #wt_content h3.dottedBg, #wt_main h3.dottedBg,
+.fullWidth #wt_content h4.dottedBg, #wt_main h4.dottedBg {
+	border-left: 3px solid #0bbfb0; }
+.search-go {
+	background: #0bbfb0; } 
+#nav ul li.current_page_item.level-2-li a.level-2-a,
+#nav ul li.current_page_item.level-3-li a.level-3-a, 
+#nav ul li.current_page_item.level-4-li a.level-4-a,
+#nav ul li.current-page-ancestor a.level-1-a,
+#nav ul li.current-page-ancestor.level-2-li a.level-2-a,
+#nav ul li.current-page-ancestor.level-3-li a.level-3-a,
+#nav ul li.current-page-ancestor.level-4-li a.level-4-a,
+.blog .affix #nav ul li.current_page_item a.level-1-a span, 
+#nav ul li.current-menu-item a.level-1-a span, 
+#nav ul li.current_page_item.level-2-li a.level-2-a,
+#nav ul li.current_page_item.level-3-li a.level-3-a, 
+#nav ul li.current_page_item.level-4-li a.level-4-a,
+#nav ul li.current-page-ancestor a.level-1-a,
+#nav ul li.current-page-ancestor.level-2-li a.level-2-a,
+#nav ul li.current-page-ancestor.level-3-li a.level-3-a,
+#nav ul li.current-page-ancestor.level-4-li a.level-4-a
+.commentList .gravatar a,
+.wt_accordion h3.current,
+ul.wt_tabs li a.current,
+.wt_minimal_tabs_wrap ul.tabs li a.current,
+.wp-pagenavi .currentPosts,
+.wp-pagenavi .active_page,
+.inlinePost .wt_postInfo a:hover,
+#wt_container .blogEntry_metadata a:hover,
+#wt_container .blogEntry_content .read_more_link:hover,
+.blogEntry_metadata div a:hover,
+.commentList .gravatar a:hover,
+#comments h3 span,
+blockquote cite,
+.sortableLinks a.selected,
+span.quotes_author,
+#wt_footer a:hover,
+#wt_footer .widget_tag_cloud a:hover,
+.blog #nav ul li.current_page_item a.level-1-a, #nav ul li.current-menu-item a.level-1-a, #nav ul li.current_page_item.level-2-li a.level-2-a, #nav ul li.current_page_item.level-3-li a.level-3-a, #nav ul li.current_page_item.level-4-li a.level-4-a, #nav ul li.current-page-ancestor a.level-1-a, #nav ul li.current-page-ancestor.level-2-li a.level-2-a, #nav ul li.current-page-ancestor.level-3-li a.level-3-a, #nav ul li.current-page-ancestor.level-4-li a.level-4-a,
+#flexSlider .flex-caption .wt_button.button_slide:hover,
+#nivo_slider_wrap .nivo-caption .wt_button.button_slide:hover,
+#cycle_slider .cycle-overlay .wt_button.button_slide:hover {
+	color: #0bbfb0; } 	
+.toggle {
+	border-top: 2px solid #0bbfb0; }
+.nivo-directionNav a:hover,
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover,
+#flexSlider .flex-caption .wt_button.button_slide:hover,
+#nivo_slider_wrap .nivo-caption .wt_button.button_slide:hover,
+#cycle_slider .cycle-overlay .wt_button.button_slide:hover {
+	border: 1px solid #0bbfb0; }	
+.flexslider:hover .flex-next:hover { border-right: 0; }
+.flexslider:hover .flex-prev:hover { border-left: 0; }
+#flexSlider .flex-control-paging li a,
+#nivo_slider_wrap .nivo-controlNav a,
+.cycle-pager span,
+.nivo-controlNav a,
+.blogEntry_content .read_more_link,
+a#cancel-comment-reply-link,
+a#submit,
+.error_page a.wt_button,
+.wt_portofolio_item:hover .wt_icons_arrow,
+.button_yellow,
+a.button_yellow_small,
+#wt_footerTop,
+.icon_wrapper .wt_icon_box .wt_icons_arrow,
+.wt_blog_shortcode .blogEntry_content .read_more_link {
+	background: #0bbfb0; }
+h6.wt_framed_box_title,
+.wt_contact_form .wt_button,
+#commentform #submit,
+#cancel-comment-reply-link,
+.error_page .wt_button,
+.wp-pagenavi span,
+.wp-pagenavi a,
+.widget_tag_cloud a,
+.wt_social_wrap_aw a:hover,
+#today,
+i.blog_icon,
+.wt_portofolio_item:hover .wt_portofolio_details,
+.portfolio_related_posts li:hover .wt_portofolio_details,
+.sortableLinks a.selected,
+#filter li.selected a, #filter li a:hover,
+.wt_portofolio_item_4col:hover .wt_portfolio_details,
+input.contact-submit,
+a.contact_button,
+.icon_wrapper:after,
+.icon_wrapper {
+	background-color: #0bbfb0; }
+a.read_more:hover,
+#wt_sidebar li a:hover,
+.blogPosts a.post_title:hover,
+#wp-calendar caption, 
+#wp-calendar th,
+.blogEntry_title a:hover,
+.blogEntry_metadata div a:hover,
+.commentList .gravatar a:link,
+.commentList .gravatar a:visited,
+#comments h3 span,
+#wt_container .aboutTheAuthor_content h4 a:hover,
+.wt_accordion h3.current,
+.format-quote blockquote:before,
+.sortableLinks a:hover,
+a.read_more:hover,
+ul.wt_team_social li:hover a,
+.wt_testimonials_company,
+ul.footer_details li a:hover,
+.icon_wrapper_alt .fontawesome-icon,
+.widget_nav_menu li a:hover {
+	color: #0bbfb0; }
+#breadcrumbs a:hover,
+.widget_subnav .current_page_item a,
+.widget_subnav a:hover {
+	color: #0bbfb0!important; }
+.widget_subnav li.current_page_item a {
+	border-left: 3px solid #0bbfb0; }
+.leftSidebar .widget_subnav li.current_page_item a {
+	border-right: 3px solid #0bbfb0; }
+.icon_wrapper:after {
+	background-color: #0bbfb0;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0bbfb0), color-stop(25%, #0bbfb0), to(#01b7a8));
+	background-image: -webkit-linear-gradient(#0bbfb0, #0bbfb0 25%, #01b7a8);
+	background-image: -moz-linear-gradient(top, #0bbfb0, #0bbfb0 25%, #01b7a8);
+	background-image: -ms-linear-gradient(#0bbfb0, #0bbfb0 25%, #01b7a8);
+	background-image: -o-linear-gradient(#0bbfb0, #0bbfb0 25%, #01b7a8);
+	background-image: linear-gradient(#0bbfb0, #0bbfb0 25%, #01b7a8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0bbfb0', endColorstr='#01b7a8', GradientType=0); }
+ul.wt_tabs li a.current {
+	border-top: 2px solid #0bbfb0;
+	color: #0bbfb0; }	
+.portfolio_related_posts,
+.wt_divider_line,
+.wt_divider_line_padding {
+	border-top: 4px solid #0bbfb0; }
+a.read_more:hover {
+	border: 2px solid #0bbfb0; }
+.wt_team_description,
+h3.wt_team_title,
+.wt_angle_top,
+.wt_rotate_top {
+	background-color: rgb(11, 191, 176);
+	background-color: rgba(11, 191, 176, 0.8); }
+#nav ul li a.level-1-a::after {
+	background-color: rgb(11, 191, 176);
+	background-color: rgba(11, 191, 176, 1); }
+#nav ul li a.level-1-a:hover {
+	border-bottom: 1px solid rgba(11, 191, 176, 1); }
+.blogEntry_metadata .read_more_link:hover,		
+.jcarousel-wrapper .blogEntry_content .read_more_link:hover,
+.widget_subnav .current_page_item a,
+.widget_subnav a:hover {
+	color: #0bbfb0 !important; }	
+.search-go,
+#wt_content .wt_postList .thumb:hover, 
+#wt_sidebar .widget a.thumb:hover,
+#wt_footer .widget a.thumb:hover,
+#wt_content .wt_widgetPosts a.thumb:hover,
+.contact_form .wt_button:hover,
+#commentform #submit:hover,
+#cancel-comment-reply-link:hover,
+.error_page .wt_button:hover,
+.wt_widgetPosts .info:hover,
+.wt_portfolio_2 .wt_portofolio_details:hover,
+.wt_portfolio_3 .wt_portofolio_details:hover,
+.wt_portfolio_4 .wt_portofolio_details:hover,
+#nav ul li a.level-1-a span::before,
+#nav ul li a.level-1-a span::after {
+	background: #0bbfb0; }
+.wt_postInfo a.read_more_link:hover {
+	background: #0bbfb0 !important; }
+.skin_bg_color,
+.wpcf7-submit,
+h6.wt_framed_box_title,
+a#cancel-comment-reply-link,
+a#submit,
+.error_page a.wt_button,
+#wt-responsive-nav .current_page_item > a,
+#wt-responsive-nav li > a:hover,	
+#wt-responsive-nav li > a.active,
+#responsive_nav_open:hover, 
+#responsive_nav_hide:hover {
+	background-color: #0bbfb0; }
+.ls-wp-container.ls-whoathemes .ls-nav-prev, 
+.ls-wp-container.ls-whoathemes .ls-nav-next {
+	background-color: #0bbfb0; !important; }	
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+button:focus {
+	border-color: #0bbfb0; }
+ul.wt_tabs li a.current,
+.wt_minimal_tabs_wrap ul.wt_tabs li a.current,
+.wt_portfolio_2 .wt_portofolio_item:hover .wt_portofolio_details, 
+.wt_portfolio_3 .wt_portofolio_item:hover .wt_portofolio_details, 
+.wt_portfolio_4 .wt_portofolio_item:hover .wt_portofolio_details,
+.sortableLinks a.selected {
+	border-top-color: #0bbfb0; }
+.fullWidth #wt_page h1.dottedBg, #wt_main h1.dottedBg,
+.fullWidth #wt_page h2.dottedBg, #wt_main h2.dottedBg,
+.fullWidth #wt_page h3.dottedBg, #wt_main h3.dottedBg,
+.fullWidth #wt_page h4.dottedBg, #wt_main h4.dottedBg,
+.widget_subnav li.current_page_item a,
+.toggle {
+	border-left-color: #0bbfb0; } 
+.leftSidebar .widget_subnav li.current_page_item a {
+	border-right-color: #0bbfb0; }
+a.contact_button {
+	color: #ffffff!important; }
+#wt_footer {
+	border-top: 10px solid #00b1a2; }
+#wt_containerWrapper .wt_title h1:after,
+#wt_containerWrapper .wt_title h2:after,
+#wt_containerWrapper .wt_title h3:after,
+#wt_containerWrapper .wt_title h4:after,
+#wt_containerWrapper .wt_title h5:after,
+#wt_containerWrapper .wt_title h6:after,
+#wt_containerWrapper .wt_title.center h1:before,
+#wt_containerWrapper .wt_title.center h2:before,
+#wt_containerWrapper .wt_title.center h3:before,
+#wt_containerWrapper .wt_title.center h4:before,
+#wt_containerWrapper .wt_title.center h5:before,
+#wt_containerWrapper .wt_title.center h6:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title.center:before,
+#wt_containerWrapper .wt_title:after,
+#wt_containerWrapper .wt_title.right:after,
+#wt_containerWrapper .wt_title.right h1:before,
+#wt_containerWrapper .wt_title.right h2:before,
+#wt_containerWrapper .wt_title.right h3:before,
+#wt_containerWrapper .wt_title.right h4:before,
+#wt_containerWrapper .wt_title.right h5:before,
+#wt_containerWrapper .wt_title.right h6:before {
+	background: url("cyan/title_bullet.png") no-repeat center center; }
+.intro_text {
+	background: url("cyan/title_bg.png") no-repeat center bottom; }
+.sortableLinks a.selected,
+.sortableLinks a.selected:hover {
+	color: #fff; }
